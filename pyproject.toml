@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hh-vacancies"
+version = "0.1.0"
+description = "Проект: Работа с API hh.ru и сохранение вакансий"
+authors = ["Максим <you@example.com>"]
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+flake8 = "^7.0.0"
+mypy = "^1.10.0"
+pydocstyle = "^6.3.0"
+types-requests = "^2.32.4.20250611"
+pytest-cov = "^6.2.1"
