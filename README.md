@@ -32,3 +32,5 @@ poetry run flake8 src
 poetry run pydocstyle src
 poetry run pytest
 ```
+
+# hh-vacancies
